@@ -7,5 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("What's your name?")
+let userInput = readLine()
+let name = userInput == "" ? "there":userInput!
+print("Hello, \(name)!")
 
